@@ -7,7 +7,7 @@
 ### 1.  Add the dependencies to [pubspec.yaml]
 ```yaml
 dependencies:
-	sphere_bottom_navigation_bar: ^0.0.3
+   sphere_bottom_navigation_bar: ^0.0.3
 ```
 ---
 ###  2.  Install it
