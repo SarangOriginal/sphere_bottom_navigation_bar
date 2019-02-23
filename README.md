@@ -12,10 +12,9 @@ dependencies:
   sphere_bottom_navigation_bar: 0.0.1
 ```
 ## How to use 
-```
+```dart
 import 'package:flutter/material.dart';
-import 'SphereBottomNavigationBar.dart';
-
+import 'package:sphere_bottom_navigation_bar/sphere_bottom_navigation_bar.dart';
 bottomNavigationBar: SphereBottomNavigationBar(
         defaultSelectedItem: 0,
         sheetRadius: BorderRadius.only(

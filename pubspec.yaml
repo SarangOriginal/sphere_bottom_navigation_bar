@@ -2,7 +2,7 @@ name: sphere_bottom_navigation_bar
 description: A new Flutter package.
 version: 0.0.1
 author: Prem Singh <premrajpurohitjasol@gmail.com>
-homepage:
+homepage: https://github.com/PremRajpurohit/sphere_bottom_navigation_bar
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
