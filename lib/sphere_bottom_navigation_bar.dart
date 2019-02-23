@@ -1,6 +1,6 @@
 library sphere_bottom_navigation_bar;
 import 'package:flutter/material.dart';
-import 'package:sphere_bottom_navigation_bar/Model/BuildNavigationItem.dart';
+import 'package:sphere_bottom_navigation_bar/Model/build_navigation_item.dart';
 
 
 class SphereBottomNavigationBar extends StatefulWidget {
