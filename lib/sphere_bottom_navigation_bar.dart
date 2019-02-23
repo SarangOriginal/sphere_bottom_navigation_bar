@@ -70,7 +70,7 @@ class _SphereBottomNavigationBarState extends State<SphereBottomNavigationBar> {
     assert(items.length <= 5, 'You can add Maximum 5 Item');
   }
 
-  Widget ItemBuilder(BuildNavigationItem item, bool isSelected) {
+  Widget itemBuilder(BuildNavigationItem item, bool isSelected) {
     var containerHieght = ((sheetHieght + sheetWidth) / 8);
     var containerWidth = ((sheetHieght + sheetWidth) / 8);
     //print('Container hieght $containerHieght');
@@ -158,7 +158,7 @@ class _SphereBottomNavigationBarState extends State<SphereBottomNavigationBar> {
                   selectedItemIndex = index;
                 });
               },
-              child: ItemBuilder(item, selectedItemIndex == index),
+              child: itemBuilder(item, selectedItemIndex == index),
             );
           }).toList(),
         ),
