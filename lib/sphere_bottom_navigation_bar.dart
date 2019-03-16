@@ -1,4 +1,5 @@
 library sphere_bottom_navigation_bar;
+
 import 'package:flutter/material.dart';
 
 class BuildNavigationItem {
@@ -8,9 +9,9 @@ class BuildNavigationItem {
   final String tooltip;
   BuildNavigationItem(
       {@required this.icon,
-        @required this.tooltip,
-        this.selectedItemColor = Colors.blue,
-        this.itemColor}) {
+      @required this.tooltip,
+      this.selectedItemColor = Colors.blue,
+      this.itemColor}) {
     assert(icon != null);
   }
 }
@@ -25,13 +26,13 @@ class SphereBottomNavigationBar extends StatefulWidget {
 
   SphereBottomNavigationBar(
       {Key key,
-        this.defaultSelectedItem,
-        this.sheetBackgroundColor,
-        this.sheetRadius,
-        this.onItemLongPressed,
-        @required this.navigationItems,
-        @required this.onItemPressed}) {
-    assert(onItemPressed != null,'You must implement onItemPressed ');
+      this.defaultSelectedItem,
+      this.sheetBackgroundColor,
+      this.sheetRadius,
+      this.onItemLongPressed,
+      @required this.navigationItems,
+      @required this.onItemPressed}) {
+    assert(onItemPressed != null, 'You must implement onItemPressed ');
   }
 
   @override
@@ -59,12 +60,12 @@ class _SphereBottomNavigationBarState extends State<SphereBottomNavigationBar> {
 
   _SphereBottomNavigationBarState(
       {@required this.items,
-        this.onItemLongPressed,
-        this.defaultSelectedItem = 0,
-        this.sheetRadius,
-        this.sheetBackgroundColor,
-        //this.iconSize,
-        @required this.onItemPressed}) {
+      this.onItemLongPressed,
+      this.defaultSelectedItem = 0,
+      this.sheetRadius,
+      this.sheetBackgroundColor,
+      //this.iconSize,
+      @required this.onItemPressed}) {
     selectedItemIndex = defaultSelectedItem;
     assert(items.length > 1, 'Atleast 2 item required. ');
     assert(items.length <= 5, 'You can add Maximum 5 Item');
@@ -76,7 +77,7 @@ class _SphereBottomNavigationBarState extends State<SphereBottomNavigationBar> {
     //print('Container hieght $containerHieght');
     //print('Container Width $containerWidth');
     var tooltip =
-    item.tooltip == null ? selectedItemIndex.toString() : item.tooltip;
+        item.tooltip == null ? selectedItemIndex.toString() : item.tooltip;
     return Padding(
       padding: const EdgeInsets.only(left: 6, right: 6),
       child: Tooltip(
@@ -107,8 +108,8 @@ class _SphereBottomNavigationBarState extends State<SphereBottomNavigationBar> {
                           color: isSelected
                               ? Colors.white
                               : item.itemColor == null
-                              ? Colors.white
-                              : item.itemColor),
+                                  ? Colors.white
+                                  : item.itemColor),
                       child: item.icon,
                     ),
                   ],

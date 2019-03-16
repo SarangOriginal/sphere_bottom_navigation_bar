@@ -7,7 +7,7 @@
 ### 1.  Add the dependencies to [pubspec.yaml]
 ```yaml
 dependencies:
-   sphere_bottom_navigation_bar: ^0.0.3
+   sphere_bottom_navigation_bar: ^1.0.0
 ```
 ---
 ###  2.  Install it
@@ -64,6 +64,6 @@ bottomNavigationBar: SphereBottomNavigationBar(
 # Screenshots 
 
 
-<div> <img src="screenshots/screenshot1.png" alt="drawing" width="200"/> <img src="screenshots/screenshot2.png" alt="drawing" width="200"/> <img src="screenshots/screenshot3.png" alt="drawing" width="200"/> </div>
+<div> <img src="https://github.com/PremRajpurohit/sphere_bottom_navigation_bar/blob/master/screenshots/screenshot1.png" alt="drawing" width="200"/> <img src="https://github.com/PremRajpurohit/sphere_bottom_navigation_bar/blob/master/screenshots/screenshot2.png" alt="drawing" width="200"/> <img src="https://github.com/PremRajpurohit/sphere_bottom_navigation_bar/blob/master/screenshots/screenshot3.png" alt="drawing" width="200"/> </div>
 
 

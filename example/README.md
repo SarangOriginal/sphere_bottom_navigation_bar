@@ -1,16 +1,23 @@
 # bottom_navigation_by_package
 
-A new Flutter project.
-
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### 1.  Add the dependencies to [pubspec.yaml]
+```yaml
+dependencies:
+	sphere_bottom_navigation_bar: ^1.0.0
+```
+---
+###  2.  Install it
+You can install packages from the command line:
+```shell
+$ flutter packages get
+```
+---
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+### 3. Import package
+```dart
+import  'package:sphere_bottom_navigation_bar/sphere_bottom_navigation_bar.dart';
+```
+---
